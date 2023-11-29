@@ -1,4 +1,4 @@
-def bbox_iou(box_a: list[float], box_b: list[float]) -> float:
+def bbox_iou(box_a, box_b) :
     """
     Calculate the Intersection over Union (IoU) of two bounding boxes.
     Args:

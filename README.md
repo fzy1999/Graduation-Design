@@ -135,3 +135,6 @@ The evaluation of the models is conducted with the [evaluation notebook](noteboo
 
 The evaluation results can be found in the [sketch_evaluation.csv](reports%2Fsketch_evaluation.csv) in more detail.
 
+
+# 
+mv -r /root/sourcecode/lissa-diagram-recognition/notebooks/models /root/sourcecode/Graduation-Design/notebooks
