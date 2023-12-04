@@ -244,8 +244,7 @@ class SketchRCNNOutputLayers(nn.Module):
             "box_reg_loss_type": cfg.MODEL.ROI_BOX_HEAD.BBOX_REG_LOSS_TYPE,
             "loss_weight": {
                 "loss_box_reg": cfg.MODEL.ROI_BOX_HEAD.BBOX_REG_LOSS_WEIGHT,
-                "loss_cls": cfg.MODEL.ROI_BOX_HEAD.CLS_LOSS_WEIGHT,
-                "loss_arrow_reg": cfg.MODEL.ROI_BOX_HEAD.ARROW_REG_LOSS_WEIGHT
+
             },  # noqa
             "use_fed_loss": cfg.MODEL.ROI_BOX_HEAD.USE_FED_LOSS,
             "use_sigmoid_ce": cfg.MODEL.ROI_BOX_HEAD.USE_SIGMOID_CE,
