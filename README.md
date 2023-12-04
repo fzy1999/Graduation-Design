@@ -44,3 +44,6 @@ dataset [bernhardschaefer/handwritten-diagram-datasets](https://github.com/bernh
 Bernhard Schäfer 提出的 Arrow R-CNN 模型在 src/sketch_detection_rcnn 文件夹中实现。该模型基于 Faster R-CNN 模型，并在 ROI 头部添加了一个关键点回归层
 
 
+
+# 
+mv -r /root/sourcecode/lissa-diagram-recognition/notebooks/models /root/sourcecode/Graduation-Design/notebooks
